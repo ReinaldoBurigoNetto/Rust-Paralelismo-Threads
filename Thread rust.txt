@@ -1,0 +1,14 @@
+Rust codigo de threds com a quantidade de nucleos de sua maquina.
+
+	extern crate num_cpus;
+	use std::thread;
+
+	fn main(){
+	  let ncpus = num_cpus::get();
+	  for i in 0..ncpus{
+	   let _= thread::spawn(move ||{
+	     println!("Hello World {:?}",i);
+	  });   
+	 }
+	 println!("Total de nucleos executados{:?}, ncpus");
+	}

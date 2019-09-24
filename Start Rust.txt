@@ -1,0 +1,12 @@
+Para iniciar com a linguagem de programação rust
+
+e necessario baixar um arquivo nesse link :https://sh.rustup.rs -sSf | sh
+
+1 - instale o arquivo
+2 - crie seu projeto
+				nome do seu projeto
+ Use os comandos cargo new .................................
+ 
+3- Execute seu projeto 
+ Usando o comando cargo run
+Para testar minha thread edite o main do seu projeto criado com o meu script : Thread Rust 
